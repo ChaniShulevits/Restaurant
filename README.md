@@ -1,8 +1,8 @@
-#Restaurant Web App (Angular)
+# Restaurant Web App (Angular)
 
 This is a restaurant web application built with Angular. The app provides a smooth user experience for browsing products, managing a shopping cart, and tracking user actions. It’s designed with clarity, interactivity, and a clean UI in mind.
 
-Features:
+## Features:
 
 • Site Navigation – Includes pages for About, Products, Cart, and User Activity Tracking.
 • Product Listing – Displays a list of products with images, descriptions, categories, and prices.
@@ -12,7 +12,7 @@ Features:
 • Activities can be sorted by date ascending or descending.
 • Responsive Design – Basic layout uses Bootstrap and Angular Material for a modern look and feel.
 
-Components & Structure:
+## Components & Structure:
 
 • site component – the main wrapper for the site content and navigation.
 • products component – displays the product list and integrates the shopping cart.
