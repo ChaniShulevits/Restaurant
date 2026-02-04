@@ -1,33 +1,27 @@
-# Restaurant Web App (Angular)
+# Store
 
-This is a restaurant web application built with Angular. The app provides a smooth user experience for browsing products, managing a shopping cart, and tracking user actions. It’s designed with clarity, interactivity, and a clean UI in mind.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
 
-## Features:
+## Development server
 
-• Site Navigation – Includes pages for About, Products, Cart, and User Activity Tracking.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-• Product Listing – Displays a list of products with images, descriptions, categories, and prices.
+## Code scaffolding
 
-• Clicking a product opens a popup with detailed info and an option to add it to the cart.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-• Shopping Cart – Shows added items with quantity controls (plus, minus, remove) and total calculation.
+## Build
 
-• User Activity Tracking – Logs every action on the site with timestamp, action type, and target.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-• Activities can be sorted by date ascending or descending.
+## Running unit tests
 
-• Responsive Design – Basic layout uses Bootstrap and Angular Material for a modern look and feel.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Components & Structure:
+## Running end-to-end tests
 
-• site component – the main wrapper for the site content and navigation.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-• products component – displays the product list and integrates the shopping cart.
+## Further help
 
-• cart component – displays selected items with controls for modifying quantities.
-
-• activity-tracker component – shows the history of user actions.
-
-• services – handles shared data like products, cart state, and activity logs.
-
-• models – defines product structure and related data types.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
